@@ -20,7 +20,9 @@ public class MenuMetodos {
                     break;
                 
                 case 2:
-
+                    Promedio PromedioValores = new Promedio();
+                    double r = Promedio.PromedioValores();
+                    System.out.println("El promedio de los 5 valores es "+ r);
                     break;
                 
                 case 3:
